@@ -70,8 +70,11 @@ h1, h2, h3 {
 
 .footer {
 	text-align: center;
-	background-color: rgb(150, 150, 150);
-	padding: 24px;
+	color: white;
+	background-image: url(images/mafate.jpg);
+	padding: 120px;
+	margin-left: 8px;
+	margin-right: 10px;
 }
 
 .cards {
@@ -79,3 +82,15 @@ h1, h2, h3 {
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-gap: 16px;
 }
+
+.btn-card {
+	color: lightgrey;
+	background-color: #5F9EA0;
+	border-radius: 4px;
+	padding: 8px 8px;
+}
+
+.btn-card:hover {
+	opacity: 0.8;
+}
+
